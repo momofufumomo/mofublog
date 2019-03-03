@@ -18,6 +18,8 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
+
+				もふの足
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
@@ -39,8 +41,10 @@
 					<?php
 				endif;
 
-				get_template_part( 'template-parts/footer/site', 'info' );
+				
+				//get_template_part( 'template-parts/footer/site', 'info' );
 				?>
+				<p>present by moffys inc.</p>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
